@@ -1,0 +1,145 @@
+.topoContainer{
+    background: var(--black);
+    background-color:#fff;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    position: fixed;
+}
+
+.boxLogo img{
+    max-width: 250px;
+    padding-left: 2rem;
+}
+
+.topoContainer section{
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 6.25rem; 
+    align-content: center;
+     margin-top: 1rem; 
+
+}
+
+
+.topoContainer input {
+    height: 100%;
+    border: 1px solid rgb(145, 139, 139);
+    border-radius: 7px 7px 7px 7px;
+    padding: 0px 15px;
+    background: transparent;
+    width: 100%;
+  
+
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;  
+    background-color: -internal-light-dark(black, white);
+   
+}
+
+
+
+
+.topoContainer span svg{
+ 
+    display: flex;
+    font-size: 2.5em;
+    margin-right: 10px;
+    color: #5BB54F;
+
+}
+.topoContainer span:last-child{
+    margin-top: 1rem;
+    display: flex;
+    font-weight: 500;
+
+ 
+}
+.topoContainer button{
+
+        position: relative;
+        background: #6eb637;
+        border: 0;
+        border-radius: 5px;
+        color: #ffffff;
+        font-weight: 500;
+        padding: 6px 16px 6px 16px;
+        display: flex;
+        align-items: center;
+        margin-top: 0.5rem;
+        font-family: 'Montserrat', sans-serif !important;
+        
+
+}
+.topoContainer button span{
+    font-size: 1.4em;
+    margin-right: 0.3rem;
+    font-weight: 500;
+}
+
+
+.topoContainer button svg{
+    font-size: 2.5em;
+    margin-right: 10px;
+}
+
+
+.topoContainer nav {
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid #E1E1E1;
+    height: 55px;
+    -webkit-box-shadow: 0 3px 3px rgb(0 0 0 / 20%);
+    box-shadow: 0 3px 3px rgb(0 0 0 / 20%);
+    display: flex;
+}
+
+
+.topoContainer nav ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    width: 100%;
+
+}
+
+.topoContainer nav ul li {
+    padding: 2px 10px;
+    display: inline-block;
+    text-decoration: none;
+    height: 100%;
+    padding: 0 12px;
+    color: #253847;
+    font-size: 1em;
+    font-weight: 400;
+    cursor: pointer;
+    align-items: center;
+
+
+}
+
+.topoContainer nav ul li svg {
+color: #5BB54F;
+margin-right: 5px;
+vertical-align: middle;
+font-size: 1.2em;
+}
+
+.topoContainer nav ul li img {
+    color: #5BB54F;
+    margin-right: 5px;
+    vertical-align: middle;
+    font-size: 1.2em;
+    }

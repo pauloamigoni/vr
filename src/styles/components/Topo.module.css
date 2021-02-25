@@ -2,7 +2,6 @@
     background: var(--black);
     background-color:#fff;
     width: 100%;
-    padding: 1rem;
     font-size: 1rem;
     position: fixed;
 }

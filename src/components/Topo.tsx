@@ -1,5 +1,6 @@
 import styles from '../styles/components/Topo.module.css'
 import { BiUserCircle, BiCart, BiDollar, BiAlignJustify} from 'react-icons/bi';
+import Link from 'next/link';
 
 
 export function Topo(){
@@ -9,16 +10,20 @@ export function Topo(){
 
             <section>
             <div>
+           
                 <a className={styles.boxLogo} href="/">
                     <img alt="Logo" src="./logo.png" />
                 </a>
+             
             </div>
             <div>
                 <input type="search" placeholder="O que você procura?" name="search" value=""  />
             </div>
             <div>
                  <div className="topoContainerEntre">
-                     <span><BiUserCircle /> <p> ENTRE OU <br /> CADASTRE-SE </p></span>
+                      <Link href="/profile">
+                         <span><BiUserCircle /> <p> ENTRE OU <br /> CADASTRE-SE </p></span>
+                       </Link>
                 </div>
                
             </div>

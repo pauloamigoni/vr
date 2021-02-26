@@ -1,13 +1,22 @@
 .subHeaderContainer{
     display: flex;
     align-items: center;
-    margin: auto;
+    /* margin: auto; */
     font-size: 0.875em;
     color: #4B4B4D;
     width: 100%;
     margin-top: 148px;
 }
 
+
+.container {
+  max-width: 2140px !important;
+}
+
+.textoContainer{
+  padding: 0px 25px 0px 25px;
+  margin-left: 100px;
+}
 
 .texto{
   margin-top: 20px;;
@@ -29,6 +38,8 @@
 .texto .content{
   align-self: stretch;
 }
+
+
 .texto svg{
   font-size: 31px;
   height: 26px;
@@ -51,3 +62,39 @@
 
 
 
+
+
+.imgBackground {
+    background-size: cover;
+    max-height: 185px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 7px;
+    
+  
+}
+.imgBackground img {
+  border-radius: 7px !important;
+}
+
+
+
+
+.category {
+  border: 1px solid #E1E1E1;
+  border-radius: 7px;
+  margin: 0 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 1px 1px -1px rgb(0 0 0 / 0%), 0 1px 0px 0 rgb(0 0 0 / 0%), 2px 2px 4px 0 rgb(0 0 0 / 8%);
+  padding: 15px 1px 5px;
+  justify-content: space-between;
+  min-height: 330px;
+  padding: 25px;
+
+  
+}

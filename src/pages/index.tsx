@@ -6,6 +6,7 @@ import { Profile } from '../components/Profile';
 import { SubHeader } from '../components/SubHeader';
 
 
+
 export default function Home() {
 
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       
 
+   
     <SubHeader />
      
      

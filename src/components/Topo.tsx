@@ -14,7 +14,7 @@ export function Topo(){
                 </a>
             </div>
             <div>
-                <input type="search" placeholder="O que você procura?" name="search" value="" autocomplete="off" />
+                <input type="search" placeholder="O que você procura?" name="search" value=""  />
             </div>
             <div>
                  <div className="topoContainerEntre">
@@ -26,8 +26,8 @@ export function Topo(){
                 
             <button>
                 <BiCart />
-                <span class="box">Carrinho</span>
-                <span class="qtd-products"></span>
+                <span>Carrinho</span>
+                <span></span>
             </button>
 
             </div>

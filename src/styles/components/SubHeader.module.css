@@ -1,0 +1,53 @@
+.subHeaderContainer{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-size: 0.875em;
+    color: #4B4B4D;
+    width: 100%;
+    margin-top: 148px;
+}
+
+
+.texto{
+  margin-top: 20px;;
+  display: inline-block;
+  text-decoration: none;
+  height: 100%;
+  padding: 0 12px;
+  color: #253847;
+  font-size: 1em;
+  font-weight: 400;
+  align-items: center;
+  font-weight: 400;
+  color: #4B4B4D;
+  font-family: 'Montserrat', sans-serif !important;
+
+
+}
+
+.texto .content{
+  align-self: stretch;
+}
+.texto svg{
+  font-size: 31px;
+  height: 26px;
+  color: #B6B8BC;
+  margin-right: 15px;
+ 
+}
+
+.texto p{
+  margin-left: 46px;
+}
+
+
+.texto strong{
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #4B4B4D;
+  margin-right: 15px;
+}
+
+
+

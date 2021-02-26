@@ -17,8 +17,8 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 6.25rem; 
     align-content: center;
-     margin-top: 1rem; 
-
+    margin-top: 1rem; 
+    color: #000;
 }
 
 
@@ -60,6 +60,13 @@
     display: flex;
     font-weight: 500;
 
+    text-align: left;
+    line-height: 16px;
+    color: #253847;
+    font-weight: 600;
+    font-size: 0.9em;
+
+
  
 }
 .topoContainer button{
@@ -69,12 +76,13 @@
         border: 0;
         border-radius: 5px;
         color: #ffffff;
-        font-weight: 500;
+        /* font-weight: 400; */
         padding: 6px 16px 6px 16px;
         display: flex;
         align-items: center;
         margin-top: 0.5rem;
         font-family: 'Montserrat', sans-serif !important;
+        font: 200 13.3333px Arial;
         
 
 }
@@ -83,6 +91,7 @@
     margin-right: 0.3rem;
     font-weight: 500;
 }
+
 
 
 .topoContainer button svg{
@@ -107,10 +116,12 @@
 
 
 .topoContainer nav ul {
-    padding:0px;
-    margin:0px;
-    list-style:none;
+
     width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 37px 0px;
+    padding: 0px 6%;
 
 }
 
@@ -125,6 +136,7 @@
     font-weight: 400;
     cursor: pointer;
     align-items: center;
+
 
 
 }

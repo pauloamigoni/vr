@@ -7,9 +7,8 @@ export function Footer(){
     <>
       <section>
         <div>
-           <img alt="Caitá Supermercados" src="https://d1fk7i3duur4ft.cloudfront.net/z9yVrCL9hb_JkluUZPOGt8PqX6w=/fit-in/0x55/https://sup-ecommerce-caita.s3-sa-east-1.amazonaws.com/54e1b1af-_site_dbcommerce_5383762127cfd.png" />
-        </div>
-        <div>
+           <img alt="VR" src="./logo.png" />
+       
            <span> <ImPhone />(54) 2124-1800 </span>
         </div>
       </section>  

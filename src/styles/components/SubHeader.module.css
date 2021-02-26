@@ -74,6 +74,7 @@
     background-position: center;
     object-fit: cover;
     border-radius: 7px;
+    border-radius: 7px !important;
     
   
 }
@@ -97,4 +98,9 @@
   padding: 25px;
 
   
+}
+
+
+.category img {
+  border-radius: 7px !important;
 }

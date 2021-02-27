@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import React  from "react";
+import React, { useState }  from "react";
 import { Col, Container, Row } from 'react-bootstrap';
 import { Footer} from '../components/Footer';
 import { BiUserCircle} from 'react-icons/bi';
@@ -10,6 +10,48 @@ import styles from '../styles/pages/Profile.module.css';
 
 
 export default function Profile() {
+
+  const [name, setName] = useState('Nome Completo'); 
+  const [documento, setDocumento] = useState('CPF'); 
+
+
+function useRadioButtons(name) {
+  const [value, setState] = useState(null);
+
+  const handleChange = e => {
+    setState(e.target.value);
+    console.log(e.target.value);
+    switch (e.target.value) {
+      case "F":
+         setDocumento('CPF'); 
+         setName('Nome Completo');
+      break;
+
+      case "J":
+         setDocumento('CNPJ'); 
+         setName('Razão Social');
+        break;
+    
+      default:
+        break;
+    }
+
+
+  };
+
+  const inputProps = {
+    name,
+    type: "radio",
+    onChange: handleChange
+  };
+
+  return [value, inputProps];
+}
+  const [tipoValue, tipoInputProps] = useRadioButtons("tipo");
+
+
+
+
 
   return (
 
@@ -26,31 +68,52 @@ export default function Profile() {
             </Row>
 
             <Row>
-                 <Col><strong>Pessoa Fisica</strong></Col>
-                 <Col><strong>Pessoa Juridica</strong></Col>
+          
+            <div>
+      <form>
+     
+        <fieldset>
+         
+          <input
+            value="F"
+            checked={tipoValue === "F"}
+            {...tipoInputProps}
+          />
+           <strong> Pessoa Fisica</strong>
+           &nbsp;&nbsp;&nbsp;
+          <input
+            value="J"
+            checked={tipoValue === "J"}
+            {...tipoInputProps}
+          />
+          <strong> Pessoa Juridica</strong>
+        </fieldset>
+      </form>
+    </div>
+
             </Row>
             <Row><br /></Row>
             <Row>
-                 <Col><strong>Nome Completo</strong>
-                 <input type="search" placeholder="O que você procura?" name="search" value="" />
+                 <Col><strong>{name}</strong>
+                 <input type="text" placeholder="Nome Completo" value="" />
                  </Col>
             </Row>
 
             <Row>
                  <Col><strong>E-mail</strong>
-                 <input type="search" placeholder="O que você procura?" name="search" value="" />
+                 <input type="text" placeholder="E-mail Valido"  value="" />
                  </Col>
-                 <Col><strong>CPF</strong>
-                 <input type="search" placeholder="O que você procura?" name="search" value="" />
+                 <Col><strong>{documento}</strong>
+                 <input type="text" placeholder="CPF"  value="" />
                  </Col>
             </Row>
 
             <Row>
                  <Col><strong>Senha</strong>
-                 <input type="search" placeholder="O que você procura?" name="search" value="" />
+                 <input type="text" placeholder="Senha"  value="" />
                  </Col>
-                 <Col><strong>Repetir Senha</strong>
-                 <input type="search" placeholder="O que você procura?" name="search" value="" />
+                 <Col><strong>Repetir a Senha</strong>
+                 <input type="text" placeholder="Repita a Senha"  value="" />
                  </Col>
             </Row>
 

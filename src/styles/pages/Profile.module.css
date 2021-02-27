@@ -51,6 +51,16 @@
 }
 
 
+.boxRegister  input[type=radio] {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+}
+
+
 
 
 

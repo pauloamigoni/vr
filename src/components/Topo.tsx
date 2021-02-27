@@ -17,7 +17,7 @@ export function Topo(){
              
             </div>
             <div>
-                <input type="search" placeholder="O que você procura?" name="search" value=""  />
+                <input type="search" placeholder="O que você procura?" name="search" value="" />
             </div>
             <div>
                  <div className="topoContainerEntre">

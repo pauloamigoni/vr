@@ -2,7 +2,6 @@ import { Button, Carousel, Col, Container, Row } from 'react-bootstrap';
 import styles from '../styles/components/SubHeader.module.css';
 import { FiTruck, FiPlayCircle,FiHome } from 'react-icons/fi';
 import { Footer} from '../components/Footer';
-
 import { Content } from '../components/Content';
 
 export function SubHeader(){

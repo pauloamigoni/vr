@@ -1,0 +1,99 @@
+.description{
+  cursor: pointer;
+  position: relative;
+  color: #535559;
+  overflow: hidden;
+  min-height: 20px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+
+}
+
+.boxPreco{
+  margin-top: 0px;
+  height: 50px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  text-align: left;
+  
+}
+
+.porcent{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background: #d2f7c6;
+  color: #00582c;
+  padding: 4px 10px;
+  font-size: 0.9em;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+
+.textoPromocao{
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #5BB54F;
+  flex: 0 0 50%;
+  height: 23px;
+}
+
+.textoPromocao span{
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #5BB54F;
+  flex: 0 0 50%;
+  height: 23px;
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  .textoNormal{
+    display: flex;
+    color: #4b4b4d;
+    align-items: flex-end;
+    font-weight: 600;
+    margin-bottom: 4px;
+    line-height: 1;
+    flex: 0 0 100%;
+    height: 21px;
+    text-decoration: line-through;
+  }
+
+  .textoNormal span{
+      font-size: 12px;
+      font-weight: normal;
+    }
+
+ .botaoAdd{
+    background: none;
+    width: 100%;
+    border: 1px solid #d8dadb;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #6eb637;
+    cursor: pointer;
+    font-size: 0.9em;
+    height: 34px;
+    margin-top: 0;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+ }
+
+    .botaoAdd:hover{
+      background: none;
+      border: 1px solid #9c9e9e;
+      border-radius: 5px;
+      color: #4b613a;
+      }

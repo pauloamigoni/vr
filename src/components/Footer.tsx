@@ -9,23 +9,21 @@ export function Footer(){
         <div>
            <img alt="VR" src="./logo.png" />
        
-           <span> <ImPhone />(54) 2124-1800 </span>
+           <span> <ImPhone />(19) 3442.7600 / 3701.6520</span>
         </div>
       </section>  
 
       <nav>
            
                 <ul>
-                  <li>POLÍTICA DE PRIVACIDADE</li>
-                  <li>COMO COMPRAR </li>
-                  <li>TERMOS DE USO</li>
-                  <li>FORMAS DE PAGAMENTO</li>
-                  <li>LOCAIS E HORÁRIOS DE ENTREGA</li>
-                  <li>CADASTRO</li>
-                  <li>CARTÃO CAITÁ</li>
-                  <li>TABLOIDE VIRTUAL</li>
-                  <li>HORARIO DE ATENDIMENTO</li>
-                  <li>FALE CONOSCO</li>
+                 <li>ERP VR</li>
+                 <li>VR MASTERFISCO</li>
+                 <li>VR MOBILE</li>
+                 <li>VR GERENCIADOR E-FISCAL</li>
+                 <li>VR COLETOR</li>
+                 <li>VR CONTABILIDADE</li>
+                 <li>VR WMS</li>
+                 <li>VR CONCILIADOR DE CARTÕES</li>
               </ul>
           
             </nav>
@@ -56,10 +54,13 @@ export function Footer(){
             <>
             <div className={styles.endereco}>
                    <p>
-                   @ 2021 <strong>Caitá Supermercados</strong> - TODOS OS DIREITOS RESERVADOS<br />
+                   @ 2021 <strong>VR SOFTWARE LTDA</strong> - TODOS OS DIREITOS RESERVADOS<br />
 
-                  OCTAVIANO ZANDONAI & CIA LTDA - CNPJ: 02.185.091/0005-36 - 
-                  AV OSVALDO ARANHA, 667 - JUVENTUDE DA ENOLOGIA, BENTO GONCALVES - RS, 95700200
+                   RUA NARCISO GONÇALVES, N. 59
+                   JARDIM CIDADE UNIVERSITÁRIA
+                   LIMEIRA - SP | CEP 13484-646
+
+0
                    </p>
                </div>
             
@@ -69,10 +70,7 @@ export function Footer(){
             <>
             <div className={styles.reservado}>
                    <p>
-                      As imagens dos produtos no site são meramente ilustrativas. Para melhor atender nossos clientes, não vendemos por atacado. Alguns produtos podem trazer riscos à saúde e que têm sua venda restrita a determinado público.<br />
-                      Preços, ofertas e condições exclusivos para Internet e válidos durante o dia de hoje, podendo sofrer alterações sem prévia notificação.<br />
-                      Proibida a venda de produtos elencados na Lei n.° 8069/90, art. 81, inciso II (ECA), em especial bebidas alcoólicas, para menores de 18 anos. Venda sujeita à disponibilidade de estoque no dia da entrega. <br />
-                      No caso de faltar algum produto, este não será entregue e o valor correspondente não será cobrado.
+                      As imagens dos produtos no site são meramente ilustrativas<br />.
                    </p>
                </div>
             

@@ -1,28 +1,27 @@
-import { Button, Carousel, Col, Container, Row } from 'react-bootstrap';
 import Head from 'next/head';
 import React  from "react";
+import styles from '../styles/pages/Home.module.css';
+import { Profile as Prof } from '../components/Profile';
+import { SubHeader } from '../components/SubHeader';
 
-import { Footer } from '../components/Footer';
+
 
 export default function Profile() {
 
   return (
-<>
-    <div>
+
+    <div className={styles.container}>
       <Head>
-         <title>Profile</title>
+         <title>VR</title>
       </Head>
       
 
-      <Container>
-
-
-<Row>
-<Footer />
-  </Row>
-  </Container>
+   
+    <Prof />
+     
+     
     </div> 
-</>
+
 
   
   )

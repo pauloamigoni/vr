@@ -20,7 +20,7 @@ export function Topo(){
                 <input type="search" placeholder="O que você procura?" name="search" value="" />
             </div>
             <div>
-                 <div className="topoContainerEntre">
+                 <div className={styles.topoContainerEntre}>
                       <Link href="/profile">
                          <span><BiUserCircle /> <p> ENTRE OU <br /> CADASTRE-SE </p></span>
                        </Link>
@@ -29,10 +29,10 @@ export function Topo(){
             </div>
             <div>
                 
-            <button>
+            <button className={styles.carBotao}>
                 <BiCart />
                 <span>Carrinho</span>
-                <span></span>
+                <span className={styles.qtdProdutos}>0</span>
             </button>
 
             </div>

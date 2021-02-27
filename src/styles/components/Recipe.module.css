@@ -1,0 +1,65 @@
+.recipeContainer{
+
+      background: #DBF3E2;
+      border-top: 20px solid transparent;
+      border-image: url('https://www.caitasupermercados.com.br/shared/images/recipe-border.png') 42 round;
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      z-index: 9;
+      padding-top: 55px;
+      padding-bottom: 55px;
+      width: 100%;
+      margin: auto !important;
+      font-family: 'Montserrat', sans-serif !important;
+    
+}
+
+
+.recipeContainer  h2 {
+  text-align: center;
+  color: #5BB54F;
+  font-weight: 800;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif !important;
+}
+.recipeContainer  p {
+text-align: center;
+color: #747c85;
+font-weight: 600;
+font-size: 0.9em;
+width: 70%;
+margin: 0px auto;
+font-family: 'Montserrat', sans-serif !important;
+}
+
+.recipeContainer card {
+  background: none;
+}
+.recipeContainer card img {
+  background: none;
+}
+
+
+
+.texto{
+  color: #253847;
+  font-weight: 400;
+  align-items: center;
+  color: #4B4B4D;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.box {
+  cursor: pointer;
+  border-radius:  10px;
+}
+
+
+
+
+

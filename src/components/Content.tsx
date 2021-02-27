@@ -6,7 +6,7 @@ export function Content(){
     return(
     
        
-<Container className={styles.container}>
+<Container>
 
 
 <Row>
@@ -19,7 +19,7 @@ export function Content(){
                 <Card.Title className={styles.description}>
                     Bife Coxão Mole Bonivo Kg</Card.Title>
                 <Card.Text className={styles.boxPreco}>
-                    <div className={styles.textoNormal}>R$ 39<span>,90</span> kg</div>
+                    <div className={styles.textoNormal}>R$ 39<span>,90 kg </span></div>
                     <div className={styles.textoPromocao}>R$ 32<span>,90 kg</span></div>
                 </Card.Text>
                 <Button className={styles.botaoAdd}>+ Adicionar</Button>
@@ -34,7 +34,7 @@ export function Content(){
                 <Card.Title className={styles.description}>
                    Tomate Caqui Kg</Card.Title>
                 <Card.Text className={styles.boxPreco}>
-                    <div className={styles.textoNormal}>R$ 3<span>,99</span> kg</div>
+                    <div className={styles.textoNormal}>R$ 3<span>,99 kg</span></div>
                     <div className={styles.textoPromocao}>R$ 2<span>,49 kg</span></div>
                 </Card.Text>
                 <Button className={styles.botaoAdd}>+ Adicionar</Button>
@@ -49,7 +49,7 @@ export function Content(){
                 <Card.Title className={styles.description}>
                     Lava Ropua Limpeza Brilhante Sch 1.6kg</Card.Title>
                 <Card.Text className={styles.boxPreco}>
-                    <div className={styles.textoNormal}>R$ 15<span>,99</span> kg</div>
+                    <div className={styles.textoNormal}>R$ 15<span>,99 kg</span></div>
                     <div className={styles.textoPromocao}>R$ 10<span>,99 kg</span></div>
                 </Card.Text>
                 <Button className={styles.botaoAdd}>+ Adicionar</Button>
@@ -63,7 +63,7 @@ export function Content(){
                 <Card.Title className={styles.description}>
                     Papel Higiênico Folha Dupla Neve 20m C/10</Card.Title>
                 <Card.Text className={styles.boxPreco}>
-                    <div className={styles.textoNormal}>R$ 10<span>,99</span> kg</div>
+                    <div className={styles.textoNormal}>R$ 10<span>,99 kg</span></div>
                     <div className={styles.textoPromocao}>R$ 7<span>,99 kg</span></div>
                 </Card.Text>
                 <Button className={styles.botaoAdd}>+ Adicionar</Button>

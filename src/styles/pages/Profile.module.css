@@ -1,0 +1,56 @@
+.container{
+ 
+    /* margin: auto; */
+    font-size: 0.875em;
+    color: #4B4B4D;
+    width: 100%;
+
+  
+}
+
+
+.boxRegister {
+    width: 683px;
+    margin: 0 auto;
+    padding: 45px 0px;
+    color: #253847;
+  
+
+}
+
+.boxRegister .title {
+    color: #5BB54F;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+.boxRegister svg {
+        font-size: 2.3rem;
+        font-weight: normal;
+}
+
+.boxRegister input {
+    height: 100%;
+    padding: 0px 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #E1E1E1;
+    border-radius: 7px;
+    justify-content: space-between;
+    width: calc(100% - 30px);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 46px;
+    position: relative;
+    background: #F8F8F8;
+   
+}
+
+
+
+
+

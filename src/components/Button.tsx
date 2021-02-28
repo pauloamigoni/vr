@@ -6,7 +6,7 @@ interface ButtonProps {
     children: string;
 }
 
-export function Button(props: ButtonProps){
+export default function Button(props: ButtonProps){
 
     const [counter, setCounter] = useState(1);
 

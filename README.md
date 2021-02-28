@@ -28,6 +28,8 @@ Abrir [http://localhost:3000](http://localhost:3000) com o browser de sua prefer
 
 ## Pode ser acessado tambem em
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Acesso via Vercel](https://vr-pauloamigoni.vercel.app) - Apenas index e profile feitos.
+
+*Foram feitas apenas https://vr-pauloamigoni.vercel.app e https://vr-pauloamigoni.vercel.app/profile
+
 
